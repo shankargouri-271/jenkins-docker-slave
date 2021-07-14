@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu
 
 # Make sure the package repository is up to date.
 RUN apt-get update && \
